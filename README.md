@@ -1,2 +1,6 @@
+### This project serves as a dummy project
+##### Created by Toothless7788
+
+
 # sandbox
-A sandbox repository for any trivial purposes
+- It can be used as a dummy project for demonstration of other projects

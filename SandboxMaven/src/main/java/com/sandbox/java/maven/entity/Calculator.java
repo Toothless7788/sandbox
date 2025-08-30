@@ -1,4 +1,4 @@
-package com.sandbox.maven.entity;
+package com.sandbox.java.maven.entity;
 
 public class Calculator {
 	/**

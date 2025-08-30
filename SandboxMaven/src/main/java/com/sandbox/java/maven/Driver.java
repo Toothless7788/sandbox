@@ -1,6 +1,6 @@
-package com.sandbox.maven;
+package com.sandbox.java.maven;
 
-import com.sandbox.maven.entity.Calculator;
+import com.sandbox.java.maven.entity.Calculator;
 
 public class Driver {
 	public static void main(String[] args) {

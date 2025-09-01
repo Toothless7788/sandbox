@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SandboxMaven</name>
   <description>A dummy maven project which can be used for other projects</description>
+  <packaging>jar</packaging>
   
   <properties>
         <log4j.version>2.24.3</log4j.version>
@@ -42,4 +43,21 @@
           <version>5.11.4</version>
       </dependency>
   </dependencies>
+  
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-jar-plugin</artifactId>
+              <version>3.3.0</version>
+              <configuration>
+                  <archive>
+                      <manifest>
+                          <mainClass>com.sandbox.java.maven.Driver</mainClass>
+                      </manifest>
+                  </archive>
+              </configuration>
+          </plugin>
+      </plugins>
+  </build>
 </project>

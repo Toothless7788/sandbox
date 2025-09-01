@@ -4,6 +4,8 @@ import com.sandbox.java.maven.entity.Calculator;
 
 public class Driver {
 	public static void main(String[] args) {
+		System.out.println("This is a sandbox of Maven project");
+		
 		Calculator calculator = new Calculator();
 		
 		double m = 4;

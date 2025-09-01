@@ -3,7 +3,7 @@
 ##### Created by Toothless7788
 
 
-## Version 1.0.0.1
+## Version 1.0.0.0
 
 
 ### Security fix

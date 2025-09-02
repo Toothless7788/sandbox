@@ -8,10 +8,16 @@ public class Driver {
 		
 		Calculator calculator = new Calculator();
 		
-		double m = 4;
-		double n = 12;
+		final double[] ms = {4, 13.5, 0, -1, 20, 5};
+		final double[] ns = {0, -15.5, 2, 3, 9, 20.5};
 		
-		System.out.println(m + " + " + n + " = " + calculator.add(m, n));
-		System.out.println(m + " - " + n + " = " + calculator.subtract(m, n));
+		for(int i = 0; i < ms.length; i++) {
+			double m = ms[i];
+			double n = ns[i];
+			
+			System.out.println("(" + m + ") + (" + n + ") = " + calculator.add(m, n));
+			System.out.println("(" + m + ") - (" + n + ") = " + calculator.subtract(m, n));
+			System.out.println("==================================");
+		}
 	}
 }

@@ -8,7 +8,7 @@ public class Calculator {
 	 * @return m + n
 	 */
 	public double add(double m, double n) {
-		return m + n;
+		return m * n;
 	}
 	
 	/**
